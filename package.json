@@ -21,7 +21,7 @@
     "react-dom": "^18.3.1"
   },
   "bin": {
-    "devboost": "./index.js"
+    "devboost": "index.js"
   },
   "devDependencies": {
     "jest": "^29.7.0",

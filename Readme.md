@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🌌 DEVBOOST CLI 3000
+# 🌌 DEVBOOST CLI
 
-<img src="assets/devboost-future.gif" alt="DevBoost CLI" width="600"/>
+<img src="assets/devboost-future.gif" alt="DevBoost CLI" width="400"/>
 
 [![Version](https://img.shields.io/badge/VERSION-1.0.0-6C5CE7?style=for-the-badge&logo=v&logoColor=white)](https://github.com/yourusername/devboost-cli)
 [![License](https://img.shields.io/badge/LICENSE-MIT-00B894?style=for-the-badge&logo=l&logoColor=white)](LICENSE)

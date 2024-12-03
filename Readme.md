@@ -6,7 +6,7 @@
 
 
 [![Version](https://img.shields.io/badge/VERSION-2.0.2-6C5CE7?style=for-the-badge&logo=v&logoColor=white)](https://github.com/yourusername/devboost-cli)
-[![License](https://img.shields.io/badge/LICENSE-MIT-00B894?style=for-the-badge&logo=l&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/LICENSE-MIT-00B894?style=for-the-badge&logo=l&logoColor=white)](./LICENSE)
 [![Node](https://img.shields.io/badge/NODE-%3E%3D16.0.0-81ECEC?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 
 **[ QUANTUM-POWERED DEVELOPMENT TOOLKIT ]**
@@ -201,6 +201,30 @@ devboost api --url https://neural.api/sync \
 ## ⚠️ QUANTUM DISCLAIMER
 
 This toolkit manipulates the fabric of development reality. Use with caution.
+
+## 📜 LICENSE
+
+MIT License
+
+Copyright (c) 2024 DevBoost CLI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 

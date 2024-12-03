@@ -190,4 +190,3 @@ try {
   <strong>[ DevBoost CLI ]</strong><br>
   <em>Engineered for Developer Excellence</em>
 </div>
-```

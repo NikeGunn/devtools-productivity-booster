@@ -1,16 +1,16 @@
 # 🚀 DevBoost CLI
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="license"/>
   <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg" alt="node version"/>
-</p>
-
-> A powerful command-line toolkit engineered for developers who demand military-grade precision and efficiency in their workflow.
+  <br/>
+  <strong>A powerful command-line toolkit engineered for developers who demand military-grade precision and efficiency in their workflow.</strong>
+</div>
 
 ## ⚡ Features Matrix
 
-```bash
+```
 ╭──────────────────────────────────────╮
 │ 🛠  Project Scaffolding              │
 │ 📦 Dependency Management             │
@@ -23,56 +23,102 @@
 
 ## 🎯 Installation
 
-```bash
-npm install -g devboost-cli
-```
+### Prerequisites
+
+1. **Node.js Installation**
+   - Ensure Node.js ≥ 16.0.0 is installed
+   - Download from [Node.js Official Website](https://nodejs.org/)
+
+2. **Global Installation**
+   ```bash
+   npm install -g devboost-cli
+   ```
 
 ## 💻 Command Arsenal
 
 ### 🚀 Project Initialization
+
+Create new projects with customizable templates:
+
 ```bash
 devboost init [template] [-t|--typescript] [-d|--directory <dir>]
+```
 
-# Available Templates
-▶️ node   - Node.js application
-▶️ react  - React application
-▶️ vue    - Vue.js application
-▶️ express - Express API
+**Available Templates:**
+- `node` - Node.js application
+- `react` - React application
+- `vue` - Vue.js application
+- `express` - Express API
+
+**Example:**
+```bash
+devboost init react -t -d my-react-app
 ```
 
 ### 📦 Dependency Management
+
+Manage project dependencies efficiently:
+
 ```bash
-# Deploy dependency
+# Add dependency
 devboost add <package> [-D|--dev]
 
 # Remove dependency
 devboost remove <package>
 ```
 
-### 🔐 Environment Operations
+**Example:**
 ```bash
-# Deploy environment variable
+devboost add lodash
+devboost add typescript --dev
+```
+
+### 🔐 Environment Operations
+
+Secure environment variable management:
+
+```bash
+# Set environment variable
 devboost env -s KEY=VALUE
 
-# Reconnaissance of environment variables
+# List environment variables
 devboost env -l
 ```
 
 ### 🌿 Git Operations
+
+Streamline your Git workflow:
+
 ```bash
-# Execute git operations
 devboost git [-b|--branch <name>] [-c|--commit <message>] [-p|--push]
 ```
 
-### 🧪 API Testing
+**Example:**
 ```bash
-# Execute API tests
+devboost git -b feature/new-feature -c "feat: add new feature" -p
+```
+
+### 🧪 API Testing
+
+Test APIs directly from CLI:
+
+```bash
 devboost api -u <url> [-m <method>] [-d <data>] [-h <headers>]
 ```
 
-### 📊 Log Analysis
+**Example:**
 ```bash
-# Monitor logs
+devboost api -u https://api.example.com/users \
+  -m POST \
+  -d '{"name": "John Doe"}' \
+  -h '{"Authorization": "Bearer token"}'
+```
+
+### 📊 Log Analysis
+
+Monitor application logs:
+
+```bash
 devboost logs [-t|--tail <lines>]
 ```
 
@@ -83,9 +129,9 @@ devboost-cli/
 ├── src/
 │   ├── commands/
 │   │   ├── api.js        # API testing module
-│   │   ├── dependency.js # Package management module
+│   │   ├── dependency.js # Package management
 │   │   ├── env.js        # Environment module
-│   │   ├── git.js        # Git operations module
+│   │   ├── git.js        # Git operations
 │   │   ├── init.js       # Project initialization
 │   │   ├── logs.js       # Logging module
 │   │   └── index.js      # Command orchestration
@@ -102,30 +148,32 @@ devboost-cli/
 - Encrypted Git operations
 - Secure API request handling
 
-## ⚙️ System Requirements
+## 🔧 Development Setup
 
-- Node.js ≥ 16.0.0
-- npm ≥ 7.0.0
-- Git ≥ 2.0.0
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/yourusername/devboost-cli.git
+   ```
 
-## 🔧 Development Operations
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/devboost-cli.git
-```
+3. **Run in Development Mode**
+   ```bash
+   npm run dev
+   ```
 
-2. Install dependencies
-```bash
-npm install
-```
+## 🤝 Contribution Guidelines
 
-3. Execute in development mode
-```bash
-npm run dev
-```
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/enhancement`
+3. Commit changes: `git commit -m 'feat: implement enhancement'`
+4. Push to branch: `git push origin feature/enhancement`
+5. Submit a Pull Request
 
-## 🚨 Error Handling Protocol
+## ⚠️ Error Handling
 
 ```javascript
 try {
@@ -136,41 +184,12 @@ try {
 }
 ```
 
-## 📡 API Testing Protocol
-
-```bash
-# GET Request
-devboost api -u https://api.example.com/data
-
-# POST Request with Payload
-devboost api -u https://api.example.com/users \
-  -m POST \
-  -d '{"name": "John Doe"}' \
-  -h '{"Authorization": "Bearer token"}'
-```
-
-## 🤝 Contribution Protocol
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/enhancement`)
-3. Commit changes (`git commit -m 'feat: implement enhancement'`)
-4. Push to branch (`git push origin feature/enhancement`)
-5. Open a Pull Request
-
 ---
 
-<p align="center">
-  <b>[ DevBoost CLI ]</b><br>
-  <i>Engineered for Developer Excellence</i>
-</p>
+<div align="center">
+  <strong>[ DevBoost CLI ]</strong><br>
+  <em>Engineered for Developer Excellence</em>
+</div>
 ```
 
-This README.md provides:
-1. Professional cybersecurity-style presentation
-2. Clear feature overview with ASCII art
-3. Detailed command documentation
-4. Security considerations
-5. Professional code structure
-6. Comprehensive examples
-7. Development setup instructions
-8. Contributing guidelines
+Would you like me to make any adjustments to this README?

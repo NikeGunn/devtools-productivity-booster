@@ -1,4 +1,4 @@
-import { exec } from 'child_process';
+import { exec } from "child_process";
 
 export function execCommand(command) {
   return new Promise((resolve, reject) => {
@@ -8,7 +8,7 @@ export function execCommand(command) {
       } else if (stderr) {
         reject(`stderr: ${stderr}`);
       } else {
-        resolve(stdout);  // Capture standard output here
+        resolve(stdout); // Capture standard output here
       }
     });
   });

@@ -1,7 +1,7 @@
 import { Command } from "commander";
 import { execCommand } from "../utils/exec.js";
 import axios from "axios";
-import chalk from "chalk";  // Import chalk for color formatting
+import chalk from "chalk"; // Import chalk for color formatting
 
 // Load API command
 export const loadCommands = (program) => {

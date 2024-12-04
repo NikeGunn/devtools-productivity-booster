@@ -7,7 +7,7 @@ import axios from "axios";
 const fetchVersionFromNpm = async () => {
   try {
     // Replace with your actual package name
-    const response = await axios.get('https://registry.npmjs.org/buster-cli');
+    const response = await axios.get('https://registry.npmjs.org/devboost-cli');
     return response.data['dist-tags'].latest;
   } catch (error) {
     console.error("Error fetching version from npm:", error.message);

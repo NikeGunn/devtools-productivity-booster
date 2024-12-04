@@ -3,11 +3,11 @@ import { Command } from "commander";
 import { loadCommands } from "./commands/loadCommands.js";
 import axios from "axios";
 
-// Function to fetch the version from npm registry
+// Function to fetch the version from the npm registry
 const fetchVersionFromNpm = async () => {
   try {
     // Replace with your actual package name
-    const response = await axios.get('https://registry.npmjs.org/devboost-cli');
+    const response = await axios.get('https://registry.npmjs.org/buster-cli');
     return response.data['dist-tags'].latest;
   } catch (error) {
     console.error("Error fetching version from npm:", error.message);
@@ -21,7 +21,7 @@ const program = new Command();
 fetchVersionFromNpm().then((version) => {
   program.version(version);
 
-  // Load custom commands (e.g., api, other commands)
+  // Load custom commands (e.g., API, Git, logs)
   loadCommands(program);
 
   // Add a catch-all for showing available commands
